@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="c2f9a941-89ad-3141-ca87-b85f62c1b341.htm">Docs</a>
+    </li>
+    <li>
+      <a href="c2f9a941-89ad-3141-ca87-b85f62c1b341.htm">Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Exceptions</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="e5299e2e-fa15-838b-ca0c-9a263c7c5180" class="has-submenu" href="e5299e2e-fa15-838b-ca0c-9a263c7c5180.htm">
+        <span data-tocFile="../toc/IDAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Service<wbr />Not<wbr />Registered<wbr />Exception</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="c2f9a941-89ad-3141-ca87-b85f62c1b341.htm">Docs</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="c2f9a941-89ad-3141-ca87-b85f62c1b341" class="has-submenu" href="c2f9a941-89ad-3141-ca87-b85f62c1b341.htm">
+        <span data-tocFile="../toc/IDA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Exceptions</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f5640c99-917d-9139-39cf-237081123248" class="has-submenu" href="f5640c99-917d-9139-39cf-237081123248.htm">
+        <span data-tocFile="../toc/IDB.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Factories</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="95464c6e-9753-69be-5e60-f4a9adf28007" class="has-submenu" href="95464c6e-9753-69be-5e60-f4a9adf28007.htm">
+        <span data-tocFile="../toc/IDC.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Factories.<wbr />Selenium</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="90eb4113-2524-1ce2-fb38-e3910ce6e902" class="has-submenu" href="90eb4113-2524-1ce2-fb38-e3910ce6e902.htm">
+        <span data-tocFile="../toc/IDD.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Interfaces</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="eea1d1f9-39f7-bb5f-7b88-859861000e24" class="has-submenu" href="eea1d1f9-39f7-bb5f-7b88-859861000e24.htm">
+        <span data-tocFile="../toc/IDE.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Models</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="0bc371cb-50a1-2406-67c4-71ad13e65eb3" class="has-submenu" href="0bc371cb-50a1-2406-67c4-71ad13e65eb3.htm">
+        <span data-tocFile="../toc/IDF.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Services</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="cd8c1321-79e7-23e2-f334-f696f7c82149" class="has-submenu" href="cd8c1321-79e7-23e2-f334-f696f7c82149.htm">
+        <span data-tocFile="../toc/IDG.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Web<wbr />UI.<wbr />Controllers</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="bfcc0825-f911-fd2e-b745-c8f56ae5bf38" class="has-submenu" href="bfcc0825-f911-fd2e-b745-c8f56ae5bf38.htm">
+        <span data-tocFile="../toc/IDH.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Web<wbr />UI.<wbr />Mapping<wbr />Profiles</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="009c3761-a714-2b57-ca90-9912d4b03777" class="has-submenu" href="009c3761-a714-2b57-ca90-9912d4b03777.htm">
+        <span data-tocFile="../toc/IDI.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Web<wbr />UI.<wbr />Models</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

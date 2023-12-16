@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="c2f9a941-89ad-3141-ca87-b85f62c1b341.htm">Docs</a>
+    </li>
+    <li>
+      <a href="cd8c1321-79e7-23e2-f334-f696f7c82149.htm">Shop<wbr />Price<wbr />Comparer.<wbr />Web<wbr />UI.<wbr />Controllers</a>
+    </li>
+    <li>
+      <a href="cae670ff-b563-4af5-3022-d9ddfcb8ee12.htm">Home<wbr />Controller</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="016d6250-f555-91f9-c99e-61cc7ab5fe4e" href="016d6250-f555-91f9-c99e-61cc7ab5fe4e.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="d692648e-b922-d9af-4b9c-3f22233fc064" class="has-submenu" href="d692648e-b922-d9af-4b9c-3f22233fc064.htm">
+        <span data-tocFile="../toc/IDBAG.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Methods</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="c2f9a941-89ad-3141-ca87-b85f62c1b341.htm">Docs</a>
+    </li>
+    <li>
+      <a href="eea1d1f9-39f7-bb5f-7b88-859861000e24.htm">Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Models</a>
+    </li>
+    <li>
+      <a href="1206a6a8-f7e4-839d-5f48-cd4118375412.htm">Product</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="57c503d6-9b92-373b-eee8-857d22a5deda" href="57c503d6-9b92-373b-eee8-857d22a5deda.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="f8aca0d1-0252-586c-e5d2-d06aa0c10b78" class="has-submenu" href="f8aca0d1-0252-586c-e5d2-d06aa0c10b78.htm">
+        <span data-tocFile="../toc/IDBCE.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Properties</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="4ba2411e-1865-51ba-8c2f-e5a85702eb61" href="4ba2411e-1865-51ba-8c2f-e5a85702eb61.htm">Methods</a>
+    </li>
+  </tocItems>
+</toc>

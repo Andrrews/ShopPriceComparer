@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="c2f9a941-89ad-3141-ca87-b85f62c1b341.htm">Docs</a>
+    </li>
+    <li>
+      <a href="0bc371cb-50a1-2406-67c4-71ad13e65eb3.htm">Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Services</a>
+    </li>
+    <li>
+      <a href="859bf1e0-f195-5a4d-1902-258c5b7ce423.htm">Media<wbr />Expert<wbr />Scraper</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="d998dbb4-34f4-87d1-e407-e6b54d4450f2" href="d998dbb4-34f4-87d1-e407-e6b54d4450f2.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="93cc75de-d089-be2f-8abc-2978a7d0f688" class="has-submenu" href="93cc75de-d089-be2f-8abc-2978a7d0f688.htm">
+        <span data-tocFile="../toc/IDBAF.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Properties</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="2bc31e0a-924e-5ad3-6312-6ef8e420d79a" class="has-submenu" href="2bc31e0a-924e-5ad3-6312-6ef8e420d79a.htm">
+        <span data-tocFile="../toc/IDCAF.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Methods</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>
