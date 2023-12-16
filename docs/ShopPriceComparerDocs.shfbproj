@@ -18,15 +18,16 @@
     <Name>Documentation</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>Cross-platform (.NET Core/.NET Standard)</FrameworkVersion>
-    <OutputPath>.\Help\</OutputPath>
+    <OutputPath>..\src\ShopPriceComparer.WebUI\wwwroot\Help\</OutputPath>
     <HtmlHelpName>Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <DocumentationSources>
       <DocumentationSource sourceFile="..\src\ShopPriceComparer.WebUI\bin\Debug\net7.0\ShopPriceComparer.WebUI.exe" />
-<DocumentationSource sourceFile="..\src\ShopPriceComparer.WebUI\bin\Debug\net7.0\ShopPriceComparer.WebUI.xml" />
-<DocumentationSource sourceFile="..\src\ShopPriceComparer.WebUI\bin\Debug\net7.0\ShopPriceComparer.WebUI.dll" />
-<DocumentationSource sourceFile="..\src\ShopPriceComparer.WebUI\bin\Debug\net7.0\ShopPriceComparer.Core.dll" />
-<DocumentationSource sourceFile="..\src\ShopPriceComparer.WebUI\bin\Debug\net7.0\ShopPriceComparer.Core.xml" /></DocumentationSources>
+      <DocumentationSource sourceFile="..\src\ShopPriceComparer.WebUI\bin\Debug\net7.0\ShopPriceComparer.WebUI.xml" />
+      <DocumentationSource sourceFile="..\src\ShopPriceComparer.WebUI\bin\Debug\net7.0\ShopPriceComparer.WebUI.dll" />
+      <DocumentationSource sourceFile="..\src\ShopPriceComparer.WebUI\bin\Debug\net7.0\ShopPriceComparer.Core.dll" />
+      <DocumentationSource sourceFile="..\src\ShopPriceComparer.WebUI\bin\Debug\net7.0\ShopPriceComparer.Core.xml" />
+    </DocumentationSources>
     <HelpFileFormat>Website</HelpFileFormat>
     <SyntaxFilters>C#</SyntaxFilters>
     <PresentationStyle>Default2022</PresentationStyle>
@@ -45,6 +46,7 @@
     <MaximumGroupParts>2</MaximumGroupParts>
     <Preliminary>False</Preliminary>
     <SdkLinkTarget>Blank</SdkLinkTarget>
+    <WarnOnMissingSourceContext>False</WarnOnMissingSourceContext>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->

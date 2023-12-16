@@ -18,7 +18,7 @@
     <meta name="Help.ContentType" content="Reference" />
     <meta name="container" content="ShopPriceComparer.WebUI.Controllers" />
     <meta name="guid" content="f6da44dc-810d-4611-882a-7b97521dbaca" />
-    <meta name="Description" content="summaryT:ShopPriceComparer.WebUI.Controllers." />
+    <meta name="Description" content="The ProductsController class is responsible for handling the HTTP requests related to the products." />
     <meta name="tocFile" content="../toc/IDG.xml" />
   </head>
   <body>
@@ -79,14 +79,20 @@
           <div id="TopicContent" class="column content is-7">
             <h1>Products<wbr />Controller Class</h1>
             <div class="summary">
-              <p class="missing">[Missing &lt;summary&gt; documentation for "T:ShopPriceComparer.WebUI.Controllers.ProductsController"]</p>
+            The ProductsController class is responsible for handling the HTTP requests related to the products. 
+            It uses a ScraperFactory to scrape product data from different sources, an IMapper to map the scraped data to the ProductViewModel, 
+            and an ILogger to log any information, warnings, or errors that occur during the execution of its methods.
             </div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
               </span>Definition</h2>
             <div id="IDBSection">
-              <strong>Namespace:</strong> <a href="cd8c1321-79e7-23e2-f334-f696f7c82149.htm">ShopPriceComparer.WebUI.Controllers</a><br /><strong>Assembly:</strong> ShopPriceComparer.WebUI (in ShopPriceComparer.WebUI.exe) Version: 1.0.0<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ProductsController</span> : <span class="identifier">Controller</span></code></pre></div></div><dl class="inheritanceHierarchy"><dt>Inheritance</dt><dd><a href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller" target="_blank" rel="noopener noreferrer">Controller</a>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="selflink">ProductsController</span></dd></dl></div>
+              <strong>Namespace:</strong> <a href="cd8c1321-79e7-23e2-f334-f696f7c82149.htm">ShopPriceComparer.WebUI.Controllers</a><br /><strong>Assembly:</strong> ShopPriceComparer.WebUI (in ShopPriceComparer.WebUI.exe) Version: 1.0.0<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ProductsController</span> : <span class="identifier">Controller</span></code></pre></div></div><dl class="inheritanceHierarchy"><dt>Inheritance</dt><dd><a href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller" target="_blank" rel="noopener noreferrer">Controller</a>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="selflink">ProductsController</span></dd></dl><h4>Return Value</h4>
+            The ProductsController returns an IActionResult that represents the result of its action methods. 
+            The Index method returns a view of the products sorted by price. 
+            The Error method returns a view of the ErrorViewModel that contains the ID of the current HTTP request.
+            </div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
@@ -111,13 +117,17 @@
                   <td>
                     <a href="70572ff9-0505-7b67-69bb-3e7e503a2719.htm">Error</a>
                   </td>
-                  <td> </td>
+                  <td>
+            This action method is used to handle errors and return an Error View Model with the current request ID.
+            </td>
                 </tr>
                 <tr>
                   <td>
                     <a href="f31fadd9-4f19-3d9d-2585-c446064a8559.htm">Index</a>
                   </td>
-                  <td> </td>
+                  <td>
+            This is the main action method for the home page. It scrapes data from the MediaExpert website, maps the data to a list of ProductViewModels, sorts the list by price, and then passes the list to the view.
+            </td>
                 </tr>
               </table>
             </div>
