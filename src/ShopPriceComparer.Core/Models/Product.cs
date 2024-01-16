@@ -1,5 +1,6 @@
 ﻿namespace ShopPriceComparer.Core.Models{
+
     /// <summary>
-    /// Represents a product with properties for the name, price, and category.
+    /// Represents a product in a shop, including properties for the shop name, product name, price, and category.
     /// </summary>
-    public class Product    {        public string Name { get; set; }        public decimal Price { get; set; }        public Category Category { get; set; }    }}
+    public class Product    {        public string ShopName { get; set; }        public string Name { get; set; }        public decimal Price { get; set; }        public Category Category { get; set; }    }}

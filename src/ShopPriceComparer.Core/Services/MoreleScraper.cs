@@ -1,26 +1,29 @@
-﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
+﻿using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium;
 using ShopPriceComparer.Core.Interfaces;
 using ShopPriceComparer.Core.Models;
 
 namespace ShopPriceComparer.Core.Services
 {
     /// <summary>
-    /// A scraper implementation for the Media Expert shop.
+    /// This class represents a scraper for the Morele shop. It implements the IScraper interface.
     /// </summary>
-    public class MediaExpertScraper : IScraper, IDisposable
+    /// <returns>
+    /// The ScrapAsync method returns a Task that represents a list of products from the Morele shop.
+    /// </returns>
+    public class MoreleScraper : IScraper
     {
         /// <summary>
         /// Gets the shop for which this scraper is designed.
         /// </summary>
-        public Shop Shop => Shop.MediaExpert;
+        public Shop Shop => Shop.Morele;
         private readonly IWebDriver _driver;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="MediaExpertScraper"/> class with the provided WebDriver.
+        /// Initializes a new instance of the <see cref="MoreleScraper"/> class with the provided WebDriver.
         /// </summary>
         /// <param name="driver">The WebDriver to be used for scraping.</param>
-        public MediaExpertScraper(IWebDriver driver)
+        public MoreleScraper(IWebDriver driver)
         {
             _driver = driver;
         }
@@ -35,23 +38,23 @@ namespace ShopPriceComparer.Core.Services
             List<Product> products = new List<Product>();
             try
             {
-                
+
                 _driver.Navigate().GoToUrl(uri);
                 _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromMilliseconds(300);
                 var title = _driver.Title;
                 //WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(2));
-                var lastPageButton = _driver.FindElement(By.ClassName("lastpage-button"));
+                var lastPageButton = _driver.FindElement(By.ClassName("pagination-btn-nolink-anchor"));
                 var lastPageButtonVal = lastPageButton.Text;
                 int.TryParse(lastPageButtonVal, out int totalPages);
 
-                for(int currentPage=1; currentPage<= totalPages; currentPage++)
+                for (int currentPage = 1; currentPage <= totalPages; currentPage++)
                 {
 
-                    string updatedUrl = uri.GetLeftPart(UriPartial.Path) + $"?page={currentPage}";
+                    string updatedUrl = uri.GetLeftPart(UriPartial.Path) + $"/{currentPage}/";
                     _driver.Navigate().GoToUrl(updatedUrl);
                     _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromMilliseconds(300);
 
-                    IReadOnlyList<IWebElement> offerBox = _driver.FindElements(By.ClassName("offer-box"));
+                    IReadOnlyList<IWebElement> offerBox = _driver.FindElements(By.ClassName("cat-product"));
                     foreach (IWebElement e in offerBox)
                     {
                         try
@@ -59,7 +62,7 @@ namespace ShopPriceComparer.Core.Services
                             decimal price = 0;
                             Product product = new Product();
 
-                            var priceColl = e.FindElements(By.ClassName("prices"));
+                            var priceColl = e.FindElements(By.ClassName("price-new"));
                             if (priceColl.Count > 0)
                             {
                                 var decVal = priceColl.First().Text.Replace("zł", "");
@@ -73,11 +76,11 @@ namespace ShopPriceComparer.Core.Services
                                 decimal.TryParse(decVal, out price);
                                 product.Price = price;
                             }
-                            var nameColl = e.FindElements(By.ClassName("name"));
                             product.ShopName = Shop.ToString();
+                            var nameColl = e.FindElements(By.ClassName("productLink"));
                             if (nameColl.Count > 0)
                             {
-                                var nameVal = nameColl.First().Text;
+                                var nameVal = nameColl.Last().Text;
                                 product.Name = nameVal;
                             }
                             if (product.Price > 0) products.Add(product);
@@ -94,7 +97,7 @@ namespace ShopPriceComparer.Core.Services
 
                     }
                 }
-                
+
 
                 var cnt = products.Count();
             }
@@ -116,5 +119,6 @@ namespace ShopPriceComparer.Core.Services
             _driver.Quit();
             _driver.Dispose();
         }
+
     }
 }

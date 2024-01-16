@@ -19,11 +19,7 @@ namespace ShopPriceComparer.WebUI.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var mediaExpertShop = ShopPriceComparer.Core.Models.Shop.MediaExpert;
-            var MediaExpertScraper = _scraper.CreateScraper(mediaExpertShop);
-            var prod = await MediaExpertScraper.ScrapAsync(new Uri("http://www.mediaexpert.pl/smartfony-i-zegarki/smartfony"));
-            return View();
-           
+            return View(); 
         }
 
         public IActionResult Privacy()

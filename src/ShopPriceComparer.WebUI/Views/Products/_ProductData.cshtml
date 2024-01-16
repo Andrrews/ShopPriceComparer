@@ -1,0 +1,23 @@
+﻿@model IEnumerable<ShopPriceComparer.WebUI.Models.MatchedProduct>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name (Shop 1: @Model.FirstOrDefault()?.Shop1Product.ShopName)</th>
+            <th>Price</th>
+            <th>Product Name (Shop 2: @Model.FirstOrDefault()?.Shop2Product.ShopName)</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var matchedProduct in Model)
+        {
+            <tr>
+                <td>@matchedProduct.Shop1Product.Name</td>
+                <td class="@(matchedProduct.Shop1Product.Price < matchedProduct.Shop2Product.Price ? "text-success" : "")">@matchedProduct.Shop1Product.Price</td>
+                <td>@matchedProduct.Shop2Product.Name</td>
+                <td class="@(matchedProduct.Shop2Product.Price < matchedProduct.Shop1Product.Price ? "text-success" : "")">@matchedProduct.Shop2Product.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
