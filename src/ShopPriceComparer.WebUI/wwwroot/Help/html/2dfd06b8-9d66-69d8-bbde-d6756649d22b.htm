@@ -12,14 +12,14 @@
     <script src="../scripts/clipboard.min.js"></script>
     <script src="../scripts/highlight.min.js"></script>
     <script src="../scripts/presentationStyle.js"></script>
-    <title>MoreleScraper Constructor</title>
-    <meta name="Title" content="Constructor" />
-    <meta name="Help.Id" content="M:ShopPriceComparer.Core.Services.MoreleScraper.#ctor" />
+    <title>ProductsController.GeneratePdf Method</title>
+    <meta name="Title" content="GeneratePdf" />
+    <meta name="Help.Id" content="M:ShopPriceComparer.WebUI.Controllers.ProductsController.GeneratePdf(System.String)" />
     <meta name="Help.ContentType" content="Reference" />
-    <meta name="container" content="ShopPriceComparer.Core.Services" />
-    <meta name="guid" content="d2d90261-5a66-380b-936d-4cc6d4ed4807" />
-    <meta name="Description" content="ShopPriceComparer.Core.Services." />
-    <meta name="tocFile" content="../toc/IDBF.xml" />
+    <meta name="container" content="ShopPriceComparer.WebUI.Controllers" />
+    <meta name="guid" content="2dfd06b8-9d66-69d8-bbde-d6756649d22b" />
+    <meta name="Description" content="This method generates a PDF file from the provided HTML content." />
+    <meta name="tocFile" content="../toc/IDCCG.xml" />
   </head>
   <body>
     <div class="fixedLayout">
@@ -77,14 +77,20 @@
           </div>
           <div id="Resizer" class="is-hidden"></div>
           <div id="TopicContent" class="column content is-7">
-            <h1>Media<wbr />Markt<wbr />Scraper Constructor</h1>
-            <div class="summary">Initializes a new instance of the <a href="4a5cc2f4-1dd5-7181-97e8-026b6550de30.htm">MoreleScraper</a> class</div>
+            <h1>Products<wbr />Controller<span id="LSTF2278A2C_0" data-languageSpecificText="cpp=::|nu=."></span>Generate<wbr />Pdf Method</h1>
+            <div class="summary">
+            This method generates a PDF file from the provided HTML content.
+            </div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
               </span>Definition</h2>
             <div id="IDBSection">
-              <strong>Namespace:</strong> <a href="0bc371cb-50a1-2406-67c4-71ad13e65eb3.htm">ShopPriceComparer.Core.Services</a><br /><strong>Assembly:</strong> ShopPriceComparer.Core (in ShopPriceComparer.Core.dll) Version: 1.0.0+fb62217fb734706bb007c4d5789a4df9ca57586c<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="identifier">MoreleScraper</span>()</code></pre></div></div></div>
+              <strong>Namespace:</strong> <a href="cd8c1321-79e7-23e2-f334-f696f7c82149.htm">ShopPriceComparer.WebUI.Controllers</a><br /><strong>Assembly:</strong> ShopPriceComparer.WebUI (in ShopPriceComparer.WebUI.exe) Version: 1.0.0+142ded897224250e45228bdcce100e3c33081ab8<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="identifier">IActionResult</span> <span class="identifier">GeneratePdf</span>(
+	<span class="identifier">string</span> <span class="parameter">htmlContent</span>
+)</code></pre></div></div><h4 class="quickLinkHeader">Parameters</h4><dl><dt class="has-text-weight-normal"><span class="parameter">htmlContent</span>  <span class="noLink">String</span></dt><dd>The HTML content to be converted into a PDF file.</dd></dl><h4 class="quickLinkHeader">Return Value</h4><span class="noLink">IActionResult</span><br />
+            Returns a PDF file converted from the provided HTML content.
+            </div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
@@ -92,10 +98,10 @@
             <div id="seeAlsoSection">
               <h4>Reference</h4>
               <div>
-                <a href="4a5cc2f4-1dd5-7181-97e8-026b6550de30.htm">MoreleScraper Class</a>
+                <a href="f6da44dc-810d-4611-882a-7b97521dbaca.htm">ProductsController Class</a>
               </div>
               <div>
-                <a href="0bc371cb-50a1-2406-67c4-71ad13e65eb3.htm">ShopPriceComparer.Core.Services Namespace</a>
+                <a href="cd8c1321-79e7-23e2-f334-f696f7c82149.htm">ShopPriceComparer.WebUI.Controllers Namespace</a>
               </div>
             </div>
           </div>
@@ -107,6 +113,14 @@
               <ul id="InThisArticleMenu" class="menu-list">
                 <li>
                   <a class="quickLink">Definition</a>
+                  <ul class="menu">
+                    <li>
+                      <a class="quickLink">Parameters</a>
+                    </li>
+                    <li>
+                      <a class="quickLink">Return Value</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a class="quickLink">See Also</a>

@@ -16,8 +16,11 @@
       <a id="cc544f99-689a-f0ac-438b-b890e1b7db81" href="cc544f99-689a-f0ac-438b-b890e1b7db81.htm">Constructor</a>
     </li>
     <li>
+      <a id="979b7593-26df-98ef-17ad-69cab5dccfc0" href="979b7593-26df-98ef-17ad-69cab5dccfc0.htm">Properties</a>
+    </li>
+    <li>
       <a id="ca586b1e-f5a1-77d4-4b24-acf2edd9793a" class="has-submenu" href="ca586b1e-f5a1-77d4-4b24-acf2edd9793a.htm">
-        <span data-tocFile="../toc/IDBAG.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+        <span data-tocFile="../toc/IDCAG.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
           <i class="fa fa-angle-right"> </i>
         </span>Methods</a>
       <ul class="toc-menu is-hidden"> </ul>

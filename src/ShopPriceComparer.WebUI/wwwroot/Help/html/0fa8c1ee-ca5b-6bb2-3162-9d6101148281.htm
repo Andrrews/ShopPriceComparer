@@ -12,14 +12,14 @@
     <script src="../scripts/clipboard.min.js"></script>
     <script src="../scripts/highlight.min.js"></script>
     <script src="../scripts/presentationStyle.js"></script>
-    <title>HomeController Constructor</title>
-    <meta name="Title" content="Constructor" />
-    <meta name="Help.Id" content="M:ShopPriceComparer.WebUI.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void)" />
+    <title>IScraper.ScrapAsync Method</title>
+    <meta name="Title" content="ScrapAsync" />
+    <meta name="Help.Id" content="M:ShopPriceComparer.Core.Interfaces.IScraper.ScrapAsync(System.Uri)" />
     <meta name="Help.ContentType" content="Reference" />
-    <meta name="container" content="ShopPriceComparer.WebUI.Controllers" />
-    <meta name="guid" content="016d6250-f555-91f9-c99e-61cc7ab5fe4e" />
-    <meta name="Description" content="ShopPriceComparer.WebUI.Controllers." />
-    <meta name="tocFile" content="../toc/IDBG.xml" />
+    <meta name="container" content="ShopPriceComparer.Core.Interfaces" />
+    <meta name="guid" content="0fa8c1ee-ca5b-6bb2-3162-9d6101148281" />
+    <meta name="Description" content="Scrapes product data asynchronously from the specified URI." />
+    <meta name="tocFile" content="../toc/IDBCD.xml" />
   </head>
   <body>
     <div class="fixedLayout">
@@ -77,17 +77,18 @@
           </div>
           <div id="Resizer" class="is-hidden"></div>
           <div id="TopicContent" class="column content is-7">
-            <h1>Home<wbr />Controller Constructor</h1>
-            <div class="summary">Initializes a new instance of the <a href="cae670ff-b563-4af5-3022-d9ddfcb8ee12.htm">HomeController</a> class</div>
+            <h1>IScraper<span id="LST49CAFF95_0" data-languageSpecificText="cpp=::|nu=."></span>Scrap<wbr />Async Method</h1>
+            <div class="summary">
+            Scrapes product data asynchronously from the specified URI.
+            </div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
               </span>Definition</h2>
             <div id="IDBSection">
-              <strong>Namespace:</strong> <a href="cd8c1321-79e7-23e2-f334-f696f7c82149.htm">ShopPriceComparer.WebUI.Controllers</a><br /><strong>Assembly:</strong> ShopPriceComparer.WebUI (in ShopPriceComparer.WebUI.exe) Version: 1.0.0+fb62217fb734706bb007c4d5789a4df9ca57586c<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="identifier">HomeController</span>(
-	<span class="identifier">ILogger</span> <span class="parameter">logger</span>,
-	<span class="identifier">void</span> <span class="parameter">scraper</span>
-)</code></pre></div></div><h4>Parameters</h4><dl><dt class="has-text-weight-normal"><span class="parameter">logger</span>  <a href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1" target="_blank" rel="noopener noreferrer">ILogger</a></dt><dd><p class="missing">[Missing &lt;param name="logger"/&gt; documentation for "M:ShopPriceComparer.WebUI.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void)"]</p></dd><dt class="has-text-weight-normal"><span class="parameter">scraper</span>  <a href="https://learn.microsoft.com/dotnet/api/system.void" target="_blank" rel="noopener noreferrer">Void</a></dt><dd><p class="missing">[Missing &lt;param name="scraper"/&gt; documentation for "M:ShopPriceComparer.WebUI.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger`1,System.Void)"]</p></dd></dl></div>
+              <strong>Namespace:</strong> <a href="90eb4113-2524-1ce2-fb38-e3910ce6e902.htm">ShopPriceComparer.Core.Interfaces</a><br /><strong>Assembly:</strong> ShopPriceComparer.Core (in ShopPriceComparer.Core.dll) Version: 1.0.0+142ded897224250e45228bdcce100e3c33081ab8<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="identifier">Task</span>&lt;<span class="identifier">List</span>&lt;<span class="identifier">Product</span>&gt;&gt; <span class="identifier">ScrapAsync</span>(
+	<span class="identifier">Uri</span> <span class="parameter">uri</span>
+)</code></pre></div></div><h4 class="quickLinkHeader">Parameters</h4><dl><dt class="has-text-weight-normal"><span class="parameter">uri</span>  <a href="https://learn.microsoft.com/dotnet/api/system.uri" target="_blank" rel="noopener noreferrer">Uri</a></dt><dd>The URI of the website to scrape.</dd></dl><h4 class="quickLinkHeader">Return Value</h4><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" target="_blank" rel="noopener noreferrer">Task</a><span id="LST49CAFF95_1" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1" target="_blank" rel="noopener noreferrer">List</a><span id="LST49CAFF95_2" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><a href="1206a6a8-f7e4-839d-5f48-cd4118375412.htm">Product</a><span id="LST49CAFF95_3" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span><span id="LST49CAFF95_4" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span><br />A task that represents the asynchronous operation. The value of the TResult parameter contains a list of scraped products.</div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
@@ -95,10 +96,10 @@
             <div id="seeAlsoSection">
               <h4>Reference</h4>
               <div>
-                <a href="cae670ff-b563-4af5-3022-d9ddfcb8ee12.htm">HomeController Class</a>
+                <a href="5124a26d-5eba-31f5-e49c-00828153aa41.htm">IScraper Interface</a>
               </div>
               <div>
-                <a href="cd8c1321-79e7-23e2-f334-f696f7c82149.htm">ShopPriceComparer.WebUI.Controllers Namespace</a>
+                <a href="90eb4113-2524-1ce2-fb38-e3910ce6e902.htm">ShopPriceComparer.Core.Interfaces Namespace</a>
               </div>
             </div>
           </div>
@@ -110,6 +111,14 @@
               <ul id="InThisArticleMenu" class="menu-list">
                 <li>
                   <a class="quickLink">Definition</a>
+                  <ul class="menu">
+                    <li>
+                      <a class="quickLink">Parameters</a>
+                    </li>
+                    <li>
+                      <a class="quickLink">Return Value</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a class="quickLink">See Also</a>

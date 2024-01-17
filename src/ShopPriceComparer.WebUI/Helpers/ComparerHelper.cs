@@ -5,8 +5,7 @@
     /// </summary>
     /// <returns>
     /// This class does not return any value.
-    /// </returns>
-    public static class ComparerHelper    {
+    /// </returns>    public static class ComparerHelper    {
 
         /// <summary>
         /// Compares the products from two different shops and returns a list of matched products based on a similarity threshold.

@@ -12,14 +12,14 @@
     <script src="../scripts/clipboard.min.js"></script>
     <script src="../scripts/highlight.min.js"></script>
     <script src="../scripts/presentationStyle.js"></script>
-    <title>WebDriverFactory Constructor</title>
-    <meta name="Title" content="Constructor" />
-    <meta name="Help.Id" content="M:ShopPriceComparer.Core.Factories.Selenium.WebDriverFactory.#ctor(System.IServiceProvider,Microsoft.Extensions.Options.IOptions`1)" />
+    <title>MoreleScraper.ScrapAsync Method</title>
+    <meta name="Title" content="ScrapAsync" />
+    <meta name="Help.Id" content="M:ShopPriceComparer.Core.Services.MoreleScraper.ScrapAsync(System.Uri)" />
     <meta name="Help.ContentType" content="Reference" />
-    <meta name="container" content="ShopPriceComparer.Core.Factories.Selenium" />
-    <meta name="guid" content="a72ca469-c784-88b2-d2f1-0c62d44413de" />
-    <meta name="Description" content="ShopPriceComparer.Core.Factories.Selenium." />
-    <meta name="tocFile" content="../toc/IDBC.xml" />
+    <meta name="container" content="ShopPriceComparer.Core.Services" />
+    <meta name="guid" content="bbf37e86-57c1-840a-e715-5158390e6f30" />
+    <meta name="Description" content="Scrapes product data asynchronously from the specified URI." />
+    <meta name="tocFile" content="../toc/IDCBF.xml" />
   </head>
   <body>
     <div class="fixedLayout">
@@ -77,17 +77,18 @@
           </div>
           <div id="Resizer" class="is-hidden"></div>
           <div id="TopicContent" class="column content is-7">
-            <h1>Web<wbr />Driver<wbr />Factory Constructor</h1>
-            <div class="summary">Initializes a new instance of the <a href="43c8fa3f-a760-60b8-c82b-0e5eed8023e8.htm">WebDriverFactory</a> class</div>
+            <h1>Morele<wbr />Scraper<span id="LST1B8DA398_0" data-languageSpecificText="cpp=::|nu=."></span>Scrap<wbr />Async Method</h1>
+            <div class="summary">
+            Scrapes product data asynchronously from the specified URI.
+            </div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
               </span>Definition</h2>
             <div id="IDBSection">
-              <strong>Namespace:</strong> <a href="95464c6e-9753-69be-5e60-f4a9adf28007.htm">ShopPriceComparer.Core.Factories.Selenium</a><br /><strong>Assembly:</strong> ShopPriceComparer.Core (in ShopPriceComparer.Core.dll) Version: 1.0.0+fb62217fb734706bb007c4d5789a4df9ca57586c<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="identifier">WebDriverFactory</span>(
-	<span class="identifier">IServiceProvider</span> <span class="parameter">serviceProvider</span>,
-	<span class="identifier">IOptions</span> <span class="parameter">driverOptions</span>
-)</code></pre></div></div><h4>Parameters</h4><dl><dt class="has-text-weight-normal"><span class="parameter">serviceProvider</span>  <a href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider" target="_blank" rel="noopener noreferrer">IServiceProvider</a></dt><dd><p class="missing">[Missing &lt;param name="serviceProvider"/&gt; documentation for "M:ShopPriceComparer.Core.Factories.Selenium.WebDriverFactory.#ctor(System.IServiceProvider,Microsoft.Extensions.Options.IOptions`1)"]</p></dd><dt class="has-text-weight-normal"><span class="parameter">driverOptions</span>  <a href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1" target="_blank" rel="noopener noreferrer">IOptions</a></dt><dd><p class="missing">[Missing &lt;param name="driverOptions"/&gt; documentation for "M:ShopPriceComparer.Core.Factories.Selenium.WebDriverFactory.#ctor(System.IServiceProvider,Microsoft.Extensions.Options.IOptions`1)"]</p></dd></dl></div>
+              <strong>Namespace:</strong> <a href="0bc371cb-50a1-2406-67c4-71ad13e65eb3.htm">ShopPriceComparer.Core.Services</a><br /><strong>Assembly:</strong> ShopPriceComparer.Core (in ShopPriceComparer.Core.dll) Version: 1.0.0+142ded897224250e45228bdcce100e3c33081ab8<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="identifier">Task</span>&lt;<span class="identifier">List</span>&lt;<span class="identifier">Product</span>&gt;&gt; <span class="identifier">ScrapAsync</span>(
+	<span class="identifier">Uri</span> <span class="parameter">uri</span>
+)</code></pre></div></div><h4 class="quickLinkHeader">Parameters</h4><dl><dt class="has-text-weight-normal"><span class="parameter">uri</span>  <a href="https://learn.microsoft.com/dotnet/api/system.uri" target="_blank" rel="noopener noreferrer">Uri</a></dt><dd>The URI of the website to scrape.</dd></dl><h4 class="quickLinkHeader">Return Value</h4><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1" target="_blank" rel="noopener noreferrer">Task</a><span id="LST1B8DA398_1" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1" target="_blank" rel="noopener noreferrer">List</a><span id="LST1B8DA398_2" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><a href="1206a6a8-f7e4-839d-5f48-cd4118375412.htm">Product</a><span id="LST1B8DA398_3" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span><span id="LST1B8DA398_4" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span><br />A task that represents the asynchronous operation. The value of the TResult parameter contains a list of scraped products.<h4 class="quickLinkHeader">Implements</h4><a href="0fa8c1ee-ca5b-6bb2-3162-9d6101148281.htm">IScraper<span id="LST1B8DA398_5" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ScrapAsync(Uri)</a><br /></div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
@@ -95,10 +96,10 @@
             <div id="seeAlsoSection">
               <h4>Reference</h4>
               <div>
-                <a href="43c8fa3f-a760-60b8-c82b-0e5eed8023e8.htm">WebDriverFactory Class</a>
+                <a href="24183d7e-e1a3-c07d-9ee3-a6e587ae3cdc.htm">MoreleScraper Class</a>
               </div>
               <div>
-                <a href="95464c6e-9753-69be-5e60-f4a9adf28007.htm">ShopPriceComparer.Core.Factories.Selenium Namespace</a>
+                <a href="0bc371cb-50a1-2406-67c4-71ad13e65eb3.htm">ShopPriceComparer.Core.Services Namespace</a>
               </div>
             </div>
           </div>
@@ -110,6 +111,17 @@
               <ul id="InThisArticleMenu" class="menu-list">
                 <li>
                   <a class="quickLink">Definition</a>
+                  <ul class="menu">
+                    <li>
+                      <a class="quickLink">Parameters</a>
+                    </li>
+                    <li>
+                      <a class="quickLink">Return Value</a>
+                    </li>
+                    <li>
+                      <a class="quickLink">Implements</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a class="quickLink">See Also</a>

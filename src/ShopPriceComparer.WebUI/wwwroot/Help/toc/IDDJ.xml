@@ -17,7 +17,7 @@
     </li>
     <li>
       <a id="800a52c1-90cd-599b-84ea-c085d9ec889f" class="has-submenu" href="800a52c1-90cd-599b-84ea-c085d9ec889f.htm">
-        <span data-tocFile="../toc/IDBCI.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+        <span data-tocFile="../toc/IDBDJ.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
           <i class="fa fa-angle-right"> </i>
         </span>Properties</a>
       <ul class="toc-menu is-hidden"> </ul>

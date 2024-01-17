@@ -5,21 +5,19 @@
       <a href="c2f9a941-89ad-3141-ca87-b85f62c1b341.htm">Docs</a>
     </li>
     <li>
-      <a href="bfcc0825-f911-fd2e-b745-c8f56ae5bf38.htm">Shop<wbr />Price<wbr />Comparer.<wbr />Web<wbr />UI.<wbr />Mapping<wbr />Profiles</a>
+      <a href="7de7fa34-190f-2b9f-8e46-74d3c58c3720.htm">Shop<wbr />Price<wbr />Comparer.<wbr />Web<wbr />UI.<wbr />Helpers</a>
     </li>
     <li>
-      <a href="6f108d08-4d59-c664-82c0-e335901d8b5b.htm">Product<wbr />Mapping<wbr />Profile</a>
+      <a href="e6573114-009e-2371-2043-b7686475cc92.htm">Comparer<wbr />Helper</a>
     </li>
   </breadcrumbs>
   <tocItems>
     <li>
-      <a id="8b3a5f90-ac07-c0e2-ba94-a4e85692bf93" href="8b3a5f90-ac07-c0e2-ba94-a4e85692bf93.htm">Constructor</a>
-    </li>
-    <li>
-      <a id="4cfd4f4a-fdf6-8499-bd5d-2985819ca17e" href="4cfd4f4a-fdf6-8499-bd5d-2985819ca17e.htm">Properties</a>
-    </li>
-    <li>
-      <a id="5d0376da-1752-f66c-9f8f-320b3cda8409" href="5d0376da-1752-f66c-9f8f-320b3cda8409.htm">Methods</a>
+      <a id="06779493-3665-5865-e8e8-870c31b7a0ea" class="has-submenu" href="06779493-3665-5865-e8e8-870c31b7a0ea.htm">
+        <span data-tocFile="../toc/IDAAH.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Methods</a>
+      <ul class="toc-menu is-hidden"> </ul>
     </li>
   </tocItems>
 </toc>

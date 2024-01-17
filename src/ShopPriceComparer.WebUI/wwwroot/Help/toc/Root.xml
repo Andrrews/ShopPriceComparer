@@ -56,15 +56,22 @@
       <ul class="toc-menu is-hidden"> </ul>
     </li>
     <li>
-      <a id="bfcc0825-f911-fd2e-b745-c8f56ae5bf38" class="has-submenu" href="bfcc0825-f911-fd2e-b745-c8f56ae5bf38.htm">
+      <a id="7de7fa34-190f-2b9f-8e46-74d3c58c3720" class="has-submenu" href="7de7fa34-190f-2b9f-8e46-74d3c58c3720.htm">
         <span data-tocFile="../toc/IDH.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Shop<wbr />Price<wbr />Comparer.<wbr />Web<wbr />UI.<wbr />Helpers</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="bfcc0825-f911-fd2e-b745-c8f56ae5bf38" class="has-submenu" href="bfcc0825-f911-fd2e-b745-c8f56ae5bf38.htm">
+        <span data-tocFile="../toc/IDI.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
           <i class="fa fa-angle-right"> </i>
         </span>Shop<wbr />Price<wbr />Comparer.<wbr />Web<wbr />UI.<wbr />Mapping<wbr />Profiles</a>
       <ul class="toc-menu is-hidden"> </ul>
     </li>
     <li>
       <a id="009c3761-a714-2b57-ca90-9912d4b03777" class="has-submenu" href="009c3761-a714-2b57-ca90-9912d4b03777.htm">
-        <span data-tocFile="../toc/IDI.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+        <span data-tocFile="../toc/IDJ.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
           <i class="fa fa-angle-right"> </i>
         </span>Shop<wbr />Price<wbr />Comparer.<wbr />Web<wbr />UI.<wbr />Models</a>
       <ul class="toc-menu is-hidden"> </ul>

@@ -8,16 +8,23 @@
       <a href="95464c6e-9753-69be-5e60-f4a9adf28007.htm">Shop<wbr />Price<wbr />Comparer.<wbr />Core.<wbr />Factories.<wbr />Selenium</a>
     </li>
     <li>
-      <a href="43c8fa3f-a760-60b8-c82b-0e5eed8023e8.htm">Web<wbr />Driver<wbr />Factory</a>
+      <a href="53dc44b8-cde0-c986-2d7e-ecf61d9b68f8.htm">Firefox<wbr />Factory</a>
     </li>
   </breadcrumbs>
   <tocItems>
     <li>
-      <a id="a72ca469-c784-88b2-d2f1-0c62d44413de" href="a72ca469-c784-88b2-d2f1-0c62d44413de.htm">Constructor</a>
+      <a id="2fd2d6da-a7ae-06e4-0e56-998d41c82417" href="2fd2d6da-a7ae-06e4-0e56-998d41c82417.htm">Constructor</a>
     </li>
     <li>
-      <a id="f51a9fbb-c9a7-afc5-f2ae-6f273131ae1e" class="has-submenu" href="f51a9fbb-c9a7-afc5-f2ae-6f273131ae1e.htm">
+      <a id="02135614-ed89-3e0c-4367-a3b8ce80d836" class="has-submenu" href="02135614-ed89-3e0c-4367-a3b8ce80d836.htm">
         <span data-tocFile="../toc/IDBBC.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Properties</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="2aab3a74-cf6a-bb92-412a-0345b020af7e" class="has-submenu" href="2aab3a74-cf6a-bb92-412a-0345b020af7e.htm">
+        <span data-tocFile="../toc/IDCBC.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
           <i class="fa fa-angle-right"> </i>
         </span>Methods</a>
       <ul class="toc-menu is-hidden"> </ul>

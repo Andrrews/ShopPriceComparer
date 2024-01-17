@@ -12,14 +12,14 @@
     <script src="../scripts/clipboard.min.js"></script>
     <script src="../scripts/highlight.min.js"></script>
     <script src="../scripts/presentationStyle.js"></script>
-    <title>MoreleScraper.Shop Property</title>
-    <meta name="Title" content="Shop" />
-    <meta name="Help.Id" content="P:ShopPriceComparer.Core.Services.MoreleScraper.Shop" />
+    <title>ComparerHelper.CompareProducts Method</title>
+    <meta name="Title" content="CompareProducts" />
+    <meta name="Help.Id" content="M:ShopPriceComparer.WebUI.Helpers.ComparerHelper.CompareProducts(System.Collections.Generic.List{ShopPriceComparer.WebUI.Models.ProductViewModel},System.Collections.Generic.List{ShopPriceComparer.WebUI.Models.ProductViewModel},System.Double)" />
     <meta name="Help.ContentType" content="Reference" />
-    <meta name="container" content="ShopPriceComparer.Core.Services" />
-    <meta name="guid" content="d4792fa5-6fc3-7c16-bf45-588c84a00fbd" />
-    <meta name="Description" content="summaryP:ShopPriceComparer.Core.Services.MoreleScraper." />
-    <meta name="tocFile" content="../toc/IDBBF.xml" />
+    <meta name="container" content="ShopPriceComparer.WebUI.Helpers" />
+    <meta name="guid" content="c0f02f77-7dc9-2f23-cac9-1105b0f095c8" />
+    <meta name="Description" content="Compares the products from two different shops and returns a list of matched products based on a similarity threshold." />
+    <meta name="tocFile" content="../toc/IDAAH.xml" />
   </head>
   <body>
     <div class="fixedLayout">
@@ -77,16 +77,22 @@
           </div>
           <div id="Resizer" class="is-hidden"></div>
           <div id="TopicContent" class="column content is-7">
-            <h1>Media<wbr />Markt<wbr />Scraper<span id="LST83738BE_0" data-languageSpecificText="cpp=::|nu=."></span>Shop Property</h1>
+            <h1>Comparer<wbr />Helper<span id="LSTAB398E63_0" data-languageSpecificText="cpp=::|nu=."></span>Compare<wbr />Products Method</h1>
             <div class="summary">
-              <p class="missing">[Missing &lt;summary&gt; documentation for "P:ShopPriceComparer.Core.Services.MoreleScraper.Shop"]</p>
+            Compares the products from two different shops and returns a list of matched products based on a similarity threshold.
             </div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
               </span>Definition</h2>
             <div id="IDBSection">
-              <strong>Namespace:</strong> <a href="0bc371cb-50a1-2406-67c4-71ad13e65eb3.htm">ShopPriceComparer.Core.Services</a><br /><strong>Assembly:</strong> ShopPriceComparer.Core (in ShopPriceComparer.Core.dll) Version: 1.0.0+fb62217fb734706bb007c4d5789a4df9ca57586c<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="identifier">Shop</span> <span class="identifier">Shop</span> { <span class="keyword">get</span>; }</code></pre></div></div><h4 class="quickLinkHeader">Property Value</h4><a href="dd760974-6b78-9b20-24f5-f3b3e454f067.htm">Shop</a><h4 class="quickLinkHeader">Implements</h4><a href="01427d61-eef9-3633-c595-92d85eb2992e.htm">IScraper<span id="LST83738BE_1" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>Shop</a><br /></div>
+              <strong>Namespace:</strong> <a href="7de7fa34-190f-2b9f-8e46-74d3c58c3720.htm">ShopPriceComparer.WebUI.Helpers</a><br /><strong>Assembly:</strong> ShopPriceComparer.WebUI (in ShopPriceComparer.WebUI.exe) Version: 1.0.0+142ded897224250e45228bdcce100e3c33081ab8<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">List</span>&lt;<span class="identifier">MatchedProduct</span>&gt; <span class="identifier">CompareProducts</span>(
+	<span class="identifier">List</span>&lt;<span class="identifier">ProductViewModel</span>&gt; <span class="parameter">shop1Products</span>,
+	<span class="identifier">List</span>&lt;<span class="identifier">ProductViewModel</span>&gt; <span class="parameter">shop2Products</span>,
+	<span class="identifier">double</span> <span class="parameter">similarityThreshold</span>
+)</code></pre></div></div><h4 class="quickLinkHeader">Parameters</h4><dl><dt class="has-text-weight-normal"><span class="parameter">shop1Products</span>  <span class="noLink">List</span><span id="LSTAB398E63_1" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><a href="dc82e40b-c092-de77-625e-62304702d623.htm">ProductViewModel</a><span id="LSTAB398E63_2" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span></dt><dd>List of products from shop 1.</dd><dt class="has-text-weight-normal"><span class="parameter">shop2Products</span>  <span class="noLink">List</span><span id="LSTAB398E63_3" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><a href="dc82e40b-c092-de77-625e-62304702d623.htm">ProductViewModel</a><span id="LSTAB398E63_4" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span></dt><dd>List of products from shop 2.</dd><dt class="has-text-weight-normal"><span class="parameter">similarityThreshold</span>  <span class="noLink">Double</span></dt><dd>The threshold for product name similarity to consider them as a match.</dd></dl><h4 class="quickLinkHeader">Return Value</h4><span class="noLink">List</span><span id="LSTAB398E63_5" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><a href="e1f1fa08-f0b0-c8db-b4d6-ee27d6275677.htm">MatchedProduct</a><span id="LSTAB398E63_6" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span><br />
+            Returns a list of matched products from both shops based on the similarity threshold.
+            </div>
             <h2 class="quickLinkHeader">
               <span class="icon toggleSection" tabindex="0">
                 <i class="fa fa-angle-down"></i>
@@ -94,10 +100,10 @@
             <div id="seeAlsoSection">
               <h4>Reference</h4>
               <div>
-                <a href="4a5cc2f4-1dd5-7181-97e8-026b6550de30.htm">MoreleScraper Class</a>
+                <a href="e6573114-009e-2371-2043-b7686475cc92.htm">ComparerHelper Class</a>
               </div>
               <div>
-                <a href="0bc371cb-50a1-2406-67c4-71ad13e65eb3.htm">ShopPriceComparer.Core.Services Namespace</a>
+                <a href="7de7fa34-190f-2b9f-8e46-74d3c58c3720.htm">ShopPriceComparer.WebUI.Helpers Namespace</a>
               </div>
             </div>
           </div>
@@ -111,10 +117,10 @@
                   <a class="quickLink">Definition</a>
                   <ul class="menu">
                     <li>
-                      <a class="quickLink">Property Value</a>
+                      <a class="quickLink">Parameters</a>
                     </li>
                     <li>
-                      <a class="quickLink">Implements</a>
+                      <a class="quickLink">Return Value</a>
                     </li>
                   </ul>
                 </li>

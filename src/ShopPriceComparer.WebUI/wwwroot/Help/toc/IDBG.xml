@@ -13,11 +13,14 @@
   </breadcrumbs>
   <tocItems>
     <li>
-      <a id="016d6250-f555-91f9-c99e-61cc7ab5fe4e" href="016d6250-f555-91f9-c99e-61cc7ab5fe4e.htm">Constructor</a>
+      <a id="2d24b7cb-64de-ae2d-fb2c-8bf1b10a23f9" href="2d24b7cb-64de-ae2d-fb2c-8bf1b10a23f9.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="a1faf3f8-99d8-5942-ff30-5cf468fc72f6" href="a1faf3f8-99d8-5942-ff30-5cf468fc72f6.htm">Properties</a>
     </li>
     <li>
       <a id="d692648e-b922-d9af-4b9c-3f22233fc064" class="has-submenu" href="d692648e-b922-d9af-4b9c-3f22233fc064.htm">
-        <span data-tocFile="../toc/IDBBG.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+        <span data-tocFile="../toc/IDCBG.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
           <i class="fa fa-angle-right"> </i>
         </span>Methods</a>
       <ul class="toc-menu is-hidden"> </ul>

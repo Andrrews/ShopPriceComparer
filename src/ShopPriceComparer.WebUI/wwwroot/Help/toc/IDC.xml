@@ -17,8 +17,15 @@
       <ul class="toc-menu is-hidden"> </ul>
     </li>
     <li>
-      <a id="43c8fa3f-a760-60b8-c82b-0e5eed8023e8" class="has-submenu" href="43c8fa3f-a760-60b8-c82b-0e5eed8023e8.htm">
+      <a id="53dc44b8-cde0-c986-2d7e-ecf61d9b68f8" class="has-submenu" href="53dc44b8-cde0-c986-2d7e-ecf61d9b68f8.htm">
         <span data-tocFile="../toc/IDBC.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Firefox<wbr />Factory</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="43c8fa3f-a760-60b8-c82b-0e5eed8023e8" class="has-submenu" href="43c8fa3f-a760-60b8-c82b-0e5eed8023e8.htm">
+        <span data-tocFile="../toc/IDCC.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
           <i class="fa fa-angle-right"> </i>
         </span>Web<wbr />Driver<wbr />Factory</a>
       <ul class="toc-menu is-hidden"> </ul>
